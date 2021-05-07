@@ -116,6 +116,9 @@ Plug 'myusuf3/numbers.vim'
 " Simple alignment plugin
 Plug 'junegunn/vim-easy-align'
 
+" Bullets.vim - automated bullet lists
+Plug 'dkarter/bullets.vim'
+
 
 
 " ====================================

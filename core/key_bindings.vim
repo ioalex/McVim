@@ -56,6 +56,12 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
+" copy and paste
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <ESC>"+pa
+
 " Alternate ways to save
 nnoremap <C-s> :w<CR>
 nnoremap <Leader>w :w!<CR>

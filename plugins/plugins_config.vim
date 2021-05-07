@@ -91,5 +91,13 @@ nmap <F8> :TagbarToggle<CR>
 " Shortcut: Generate TOC in Markdown files
 call SetupCommandAbbrs('TOC', 'GenerateMarkdownTOC')
 
+" Bullets.vim
+let g:bullets_enabled_file_types = [
+    \ 'markdown',
+    \ 'text',
+    \ 'gitcommit',
+    \ 'scratch'
+    \]
+
 " Set Nunjucks file type
 au BufNewFile,BufRead *.njk,*.nunjucks,*.nunjs,*.nj set ft=nunjucks

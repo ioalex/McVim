@@ -49,7 +49,9 @@ set lazyredraw                          " Screen will not be redrawn while execu
 " Functionality
 set mouse=a                             " Enable your mouse
 set backspace=indent,eol,start          " Proper backspace behavior in Insert mode
-set clipboard=unnamedplus               " Copy paste between Vim and everything else
+set clipboard+=unnamedplus              " Copy paste between Vim and everything else
+set paste                               " Paste from a windows or from vim
+set go+=a                               " Visual selection automatically copied to the clipboard
 
 " Splits
 set splitbelow                          " Horizontal splits will automatically be below

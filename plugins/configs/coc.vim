@@ -22,7 +22,7 @@ endfunction
 call SetupCommandAbbrs('C', 'CocConfig')
 
 " Extensions
-let g:coc_global_extensions = ['coc-explorer', 'coc-bookmark', 'coc-snippets', 'coc-import-cost', 'coc-template', 'coc-pairs', 'coc-eslint', 'coc-stylelintplus', 'coc-markdownlint', 'coc-prettier', 'coc-emmet', 'coc-html', 'coc-css', 'coc-json', 'coc-tsserver', 'coc-yaml', 'coc-sh', 'coc-vimlsp']
+let g:coc_global_extensions = ['coc-explorer', 'coc-snippets', 'coc-import-cost', 'coc-pairs', 'coc-eslint', 'coc-stylelintplus', 'coc-markdownlint', 'coc-prettier', 'coc-emmet', 'coc-html', 'coc-css', 'coc-json', 'coc-tsserver', 'coc-yaml', 'coc-sh', 'coc-vimlsp']
 
 " Explorer Key Mapping
 nmap <space>e :CocCommand explorer<CR>
