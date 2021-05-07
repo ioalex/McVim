@@ -63,6 +63,9 @@ Plug 'ap/vim-buftabline'
 " Automatically resizes the active window to the "golden" size
 Plug 'dm1try/golden_size'
 
+" Smooth scrolling for Vim done right
+Plug 'psliwka/vim-smoothie'
+
 
 
 " ====================================
